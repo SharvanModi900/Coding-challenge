@@ -13,6 +13,11 @@ pnpm dev
 # or
 bun dev
 ```
+echo "## Running JSON Server" >> README.md
+echo "\`\`\`sh" >> README.md
+echo "json-server --watch data.json --port 5002" >> README.md
+echo "\`\`\`" >> README.md
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
